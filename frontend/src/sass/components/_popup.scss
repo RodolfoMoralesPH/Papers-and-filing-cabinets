@@ -6,7 +6,7 @@
     vertical-align:middle;
     padding: 1.5rem;
     color: white;
-    &_close:active{
-        visibility: hidden;
+    &_close{
+        cursor: pointer;
     }
 }

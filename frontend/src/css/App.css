@@ -20,6 +20,12 @@ a:link, a:visited {
   text-decoration: none;
   color: inherit; }
 
+.title {
+  font-weight: 530; }
+
+.margin-top-medium {
+  margin-top: 2rem; }
+
 .popup {
   background-color: #ADADAD;
   width: 100%;
@@ -28,5 +34,48 @@ a:link, a:visited {
   vertical-align: middle;
   padding: 1.5rem;
   color: white; }
-  .popup_close:active {
-    visibility: hidden; }
+  .popup_close {
+    cursor: pointer; }
+
+.header {
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../img/camera.jpg");
+  height: 50rem;
+  width: 100%;
+  background-size: cover;
+  background-position: 70%;
+  padding: 3rem 3.5rem; }
+  .header__action {
+    left: 0;
+    width: 45%;
+    height: 100%;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; }
+
+.btn {
+  padding: 1rem;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 400; }
+  .btn_blue {
+    background-color: #037c8f;
+    border: 2px solid #037c8f;
+    color: white; }
+  .btn_grey {
+    background-color: #E8E4E4;
+    border: 4px solid #E8E4E4; }
+
+.navbar {
+  background-color: #fff;
+  height: 6rem;
+  width: 100%;
+  padding: 2rem 10%;
+  display: flex;
+  justify-content: space-between; }
+
+.sign-in {
+  transform: translateY(-0.5rem);
+  display: inline-block;
+  padding: 2px; }
