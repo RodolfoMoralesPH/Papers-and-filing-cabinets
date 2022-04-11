@@ -1,3 +1,6 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixin';
+
 @import 'base/base';
 @import 'base/typography';
 @import 'base/utilities';
@@ -6,3 +9,6 @@
 @import 'components/header';
 @import 'components/button';
 @import 'components/Navbar';
+@import 'components/pricing';
+
+@import 'layout/grid';

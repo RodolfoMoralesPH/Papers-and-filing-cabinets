@@ -1,0 +1,58 @@
+.pricing{
+    background-color: #fff;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    &_package{
+        display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+        height: 48rem;
+        width: 40rem;
+        text-align: center;
+        padding: 2rem;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0 1rem 2rem rgba(black, .2);
+        &-1{
+            border-top: 1rem solid rgb(0, 145, 255);
+
+        }
+        &-2{
+            border-top: 1rem solid #037c8f;
+
+        }
+    }
+}
+
+.card__title{
+    &-price{
+        font-weight: bold;
+    }
+    &-icon{
+        font-size: 3rem;
+        
+    
+    }
+    &--subtitle{
+        
+        color: rgb(0, 145, 255);
+        &-free{
+            font-size: 5rem;
+            font-weight: 1000;
+        }
+        &-small{
+            font-size: 1rem;
+            display: block;
+            color: rgb(0, 145, 255);
+        }
+
+    }
+    &-type{
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+}
