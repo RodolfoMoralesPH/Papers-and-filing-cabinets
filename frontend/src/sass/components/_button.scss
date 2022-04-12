@@ -4,7 +4,7 @@
     border-radius: 5px;
     display: inline-block;
     cursor:pointer;
-
+    transition: all .2s ease-in;
     
     font-weight: 400;
 
@@ -12,15 +12,26 @@
         background-color: #037c8f;
     border: 2px solid #037c8f;
     color:white;
+    &:hover{
+        background-color: #086775;
+        border: 2px solid #086775;
+    }
     }
     &_grey{
         background-color: #E8E4E4;
     border: 4px solid #E8E4E4;
+    &:hover{
+        background-color: #adadad;
+        border: 4px solid #adadad;
+    }
     
     }
     &_white{
         background-color: #fff;
     border: 2px solid rgb(0, 145, 255);
     color:rgb(0, 145, 255);
+        &:hover{
+            background-color:rgba(rgb(0, 145, 255), 0.1)
+        }
     }
 }

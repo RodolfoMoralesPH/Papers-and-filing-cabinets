@@ -31,6 +31,7 @@
 .card__title{
     &-price{
         font-weight: bold;
+        font-size: 1.9rem;
     }
     &-icon{
         font-size: 3rem;
@@ -41,11 +42,11 @@
         
         color: rgb(0, 145, 255);
         &-free{
-            font-size: 5rem;
+            font-size: 5.4rem;
             font-weight: 1000;
         }
         &-small{
-            font-size: 1rem;
+            font-size: 1.3rem;
             display: block;
             color: rgb(0, 145, 255);
         }
