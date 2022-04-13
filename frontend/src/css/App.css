@@ -33,6 +33,9 @@ a:link, a:visited {
 .margin-bottom-medium {
   margin-bottom: 2rem; }
 
+.margin-bottom-large {
+  margin-bottom: 15rem; }
+
 .popup {
   background-color: #ADADAD;
   width: 100%;
@@ -149,10 +152,17 @@ a:link, a:visited {
   height: 110vh;
   width: 100%;
   text-align: center;
-  background-color: linear-gradient(to bottom, #e6e6e6, #fff); }
+  background-color: linear-gradient(to bottom, #e6e6e6, #fff);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .review {
-  background-color: azure; }
+  background-color: #225353;
+  padding: 2rem;
+  text-align: left;
+  border-radius: 9px;
+  height: 30rem; }
+  .review__text {
+    display: block; }
 
 .row {
   max-width: 114rem;
@@ -167,7 +177,9 @@ a:link, a:visited {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
-  .row .col-1-of-2 {
-    width: calc((100% - 6rem) /2); }
-  .row .col-1-of-3 {
-    width: calc((100% - 2 * 6rem) /3); }
+
+.col-1-of-2 {
+  width: calc((100% - 6rem) /2); }
+
+.col-1-of-3 {
+  width: calc((100% - 2 * 6rem) /3); }
