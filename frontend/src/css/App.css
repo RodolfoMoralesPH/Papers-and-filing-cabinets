@@ -157,12 +157,44 @@ a:link, a:visited {
 
 .review {
   background-color: #225353;
-  padding: 2rem;
+  padding: 2rem 1rem;
   text-align: left;
   border-radius: 9px;
-  height: 30rem; }
+  height: 32rem; }
+  .review__profile {
+    display: flex;
+    justify-content: space-evenly; }
+    .review__profile-picture {
+      height: 5rem;
+      width: 5rem;
+      border-radius: 50%; }
   .review__text {
     display: block; }
+
+.footer {
+  height: 50vh;
+  width: 100%;
+  background-color: grey;
+  padding: 5rem 2rem;
+  display: flex; }
+  .footer__left {
+    width: 40%; }
+  .footer__right {
+    width: 60%;
+    padding: 4rem 0; }
+
+table {
+  border: none; }
+
+tr {
+  display: flex;
+  justify-content: space-between; }
+
+td {
+  margin-top: 2rem; }
+
+td:not(:first-child) {
+  margin-left: 4rem; }
 
 .row {
   max-width: 114rem;

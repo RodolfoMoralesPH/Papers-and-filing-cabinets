@@ -4,6 +4,7 @@ import Header from '../Components/Header'
 import Navbar from '../Components/Navbar'
 import Pricing from '../Components/Pricing'
 import Reviews from '../Components/Reviews'
+import Footer from '../Components/Footer'
 function Home() {
   return (
     <main>
@@ -12,6 +13,7 @@ function Home() {
       <Header />
       <Pricing />
       <Reviews />
+      <Footer />
     </main>
   )
 }

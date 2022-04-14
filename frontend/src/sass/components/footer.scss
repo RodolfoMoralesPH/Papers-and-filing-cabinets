@@ -1,0 +1,29 @@
+.footer{
+    height: 50vh;
+    width: 100%;
+    background-color: grey;
+    padding: 5rem 2rem;
+    display: flex;
+    &__left{
+        width: 40%;
+    }
+    &__right{
+        width: 60%;
+        padding: 4rem 0;
+    }
+}
+
+table{
+    border: none;
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+
+}
+td{
+    margin-top: 2rem;
+}
+td:not(:first-child){
+    margin-left: 4rem;
+}

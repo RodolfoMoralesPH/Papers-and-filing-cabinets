@@ -11,7 +11,7 @@ function Review({review}) {
             {review.rev}
         </span>
 
-        <div className="review__profile">
+        <div className="review__profile margin-top-medium">
           <div className="review__profile-left">
             <img src={review.image} className="review__profile-picture" />
           </div>
