@@ -3,17 +3,19 @@
     width: 100%;
     text-align: center;
     background-color: linear-gradient(to bottom, rgb(230, 230, 230), #fff);
-    box-shadow: 0 1rem 2rem rgba(black, .2);
 }
 .review{
-    background-color: rgb(34, 83, 83);
+    box-shadow: 0 1rem 2rem rgba(black, .2);
+    background-color: rgb(243, 243, 243);
     padding: 2rem 1rem;
     text-align: left;
     border-radius: 9px;
     height: 32rem;
     &__profile{
         display: flex;
-        justify-content: space-evenly;
+        &-right{
+            margin-left: 1rem;
+        }
         &-picture{
             height:5rem;
             width:5rem;

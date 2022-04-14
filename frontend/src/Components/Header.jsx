@@ -13,7 +13,7 @@ function Header() {
           </p>
           <div className="div">
           <button className="btn btn_blue margin-top-medium">
-            Get Started
+            DEMO - No Account Required!
           </button>
           </div>
         </div>

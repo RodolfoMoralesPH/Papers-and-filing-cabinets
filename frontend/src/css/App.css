@@ -152,18 +152,19 @@ a:link, a:visited {
   height: 110vh;
   width: 100%;
   text-align: center;
-  background-color: linear-gradient(to bottom, #e6e6e6, #fff);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  background-color: linear-gradient(to bottom, #e6e6e6, #fff); }
 
 .review {
-  background-color: #225353;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  background-color: #f3f3f3;
   padding: 2rem 1rem;
   text-align: left;
   border-radius: 9px;
   height: 32rem; }
   .review__profile {
-    display: flex;
-    justify-content: space-evenly; }
+    display: flex; }
+    .review__profile-right {
+      margin-left: 1rem; }
     .review__profile-picture {
       height: 5rem;
       width: 5rem;
