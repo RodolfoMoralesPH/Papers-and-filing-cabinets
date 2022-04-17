@@ -201,6 +201,15 @@ td {
 td:not(:first-child) {
   margin-left: 4rem; }
 
+.homeheader {
+  width: 100%;
+  height: 60rem;
+  background-color: black; }
+  .homeheader__backgroundimg {
+    background-image: url("../img/camera.jpg");
+    width: 100%;
+    height: 20rem; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
