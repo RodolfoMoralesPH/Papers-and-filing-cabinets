@@ -11,10 +11,18 @@
     text-align: left;
     border-radius: 9px;
     height: 32rem;
+    &__title{
+        font-weight: 900;
+    }
     &__profile{
         display: flex;
-        &-right{
+        
+        &--right{
             margin-left: 1rem;
+            
+            &-place{
+                font-weight: 300;
+            }
         }
         &-picture{
             height:5rem;

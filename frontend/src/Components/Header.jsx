@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'
 function Header() {
   return (
     <div className="header">
@@ -12,9 +13,9 @@ function Header() {
             at the end of the year. You're welcome.
           </p>
           <div className="div">
-          <button className="btn btn_blue margin-top-medium">
+          <Link to={'/home'} className="btn btn_blue margin-top-medium">
             DEMO - No Account Required!
-          </button>
+          </Link>
           </div>
         </div>
     </div>

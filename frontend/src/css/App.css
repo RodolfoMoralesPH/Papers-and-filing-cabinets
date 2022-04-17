@@ -161,10 +161,14 @@ a:link, a:visited {
   text-align: left;
   border-radius: 9px;
   height: 32rem; }
+  .review__title {
+    font-weight: 900; }
   .review__profile {
     display: flex; }
-    .review__profile-right {
+    .review__profile--right {
       margin-left: 1rem; }
+      .review__profile--right-place {
+        font-weight: 300; }
     .review__profile-picture {
       height: 5rem;
       width: 5rem;
@@ -175,7 +179,7 @@ a:link, a:visited {
 .footer {
   height: 50vh;
   width: 100%;
-  background-color: grey;
+  background-color: #f3f3f3;
   padding: 5rem 2rem;
   display: flex; }
   .footer__left {

@@ -4,7 +4,7 @@ import React from 'react'
 function Review({review}) {
   return (
     <div className="col-1-of-3 review">
-        <span className="title">
+        <span className="review__title">
             {review.phrase}
         </span><br></br>
         <span className="margin-top-medium review_text">
@@ -16,11 +16,11 @@ function Review({review}) {
             <img src={review.image} className="review__profile-picture" />
           </div>
 
-          <div className="review__profile-right">
+          <div className="review__profile--right">
             <span className="title">
               {review.name}
           </span>
-          <p className=" header__action-supplementarytext">
+          <p className=" review__profile--right-place">
             {review.place}
           </p>
           </div>
