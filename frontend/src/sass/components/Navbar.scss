@@ -11,3 +11,13 @@
     display: inline-block;
     padding: 2px;
 }
+.homenavbar{
+    display:flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 2rem;
+}
+.homenavbar__menu{
+    width: 40%;
+    
+}

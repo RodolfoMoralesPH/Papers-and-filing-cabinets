@@ -27,6 +27,9 @@ a:link, a:visited {
   font-size: 3rem;
   font-weight: 600; }
 
+ul {
+  list-style-type: none; }
+
 .margin-top-medium {
   margin-top: 2rem; }
 
@@ -102,6 +105,15 @@ a:link, a:visited {
   transform: translateY(-0.5rem);
   display: inline-block;
   padding: 2px; }
+
+.homenavbar {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 2rem; }
+
+.homenavbar__menu {
+  width: 40%; }
 
 .pricing {
   background-color: #fff;
@@ -202,13 +214,68 @@ td:not(:first-child) {
   margin-left: 4rem; }
 
 .homeheader {
-  width: 100%;
-  height: 60rem;
-  background-color: black; }
+  margin: 0 auto;
+  max-width: 100%;
+  height: 65rem;
+  background-color: #242526;
+  position: relative; }
+  .homeheader__right {
+    width: 20rem;
+    display: flex;
+    right: 0;
+    position: absolute;
+    bottom: 10rem;
+    justify-content: space-evenly; }
   .homeheader__backgroundimg {
-    background-image: url("../img/camera.jpg");
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/desert.jpg");
+    background-size: cover;
     width: 100%;
-    height: 20rem; }
+    height: 35rem;
+    position: relative; }
+  .homeheader__profile--img {
+    width: 17rem;
+    height: 17rem;
+    border-radius: 200rem;
+    background-color: #242526;
+    position: absolute;
+    margin-top: -6rem;
+    left: 4rem;
+    padding: .5rem; }
+    .homeheader__profile--img-inner {
+      width: 100%;
+      height: 100%;
+      background-image: url("../img/morena.jpg");
+      border-radius: 200rem;
+      background-size: cover; }
+  .homeheader__profile--info {
+    padding-left: 22rem;
+    width: 100%;
+    height: 22rem;
+    background-color: #242526; }
+    .homeheader__profile--info-name {
+      font-size: 3.5rem;
+      font-weight: 600;
+      color: #eee; }
+    .homeheader__profile--info-box {
+      display: flex;
+      justify-content: space-between;
+      color: #eee;
+      width: 18rem; }
+    .homeheader__profile--info-city {
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-top: .5rem; }
+    .homeheader__profile--info-job {
+      font-size: 2rem; }
+
+.menu__item {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+  color: #fff;
+  font-size: 2rem; }
+  .menu__item--1:active {
+    color: aqua; }
 
 .row {
   max-width: 114rem;
