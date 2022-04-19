@@ -5,7 +5,7 @@ function HomeNavbar() {
   return (
     <div className="homenavbar">
         <span className="title">
-            <BsCalendar3 /> IndieChecks
+            <BsCalendar3 />  IndieChecks
         </span>
         <div className="homenavbar__menu">
           <ul className="menu__item">

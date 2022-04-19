@@ -277,6 +277,26 @@ td:not(:first-child) {
   .menu__item--1:active {
     color: aqua; }
 
+.homecomponentbox {
+  background-color: #3B3B3C;
+  color: #fff;
+  height: 60vh;
+  width: 100%;
+  padding: 2rem 2rem; }
+  .homecomponentbox__left {
+    width: 40%;
+    background-color: #242526;
+    padding: 1rem;
+    border-radius: 2rem; }
+
+.job {
+  width: 100%; }
+  .jobBox {
+    width: 100%;
+    height: 15rem;
+    background-size: cover;
+    border-radius: 2px; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }

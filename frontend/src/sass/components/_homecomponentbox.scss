@@ -1,0 +1,13 @@
+.homecomponentbox{
+    background-color: #3B3B3C;
+    color: #fff;
+    height: 60vh;
+    width: 100%;
+    padding: 2rem 2rem;
+    &__left{
+        width:40%;
+        background-color: #242526;
+        padding: 1rem;
+        border-radius: 2rem;
+    }
+}
