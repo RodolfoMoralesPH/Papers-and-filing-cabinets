@@ -101,6 +101,10 @@ const jobs = [
                 ]
             },
         ]
+    },
+    {
+        'name': 'Grocery Store',
+        'img': 'img/market.jpg',
     }
 ]
 
