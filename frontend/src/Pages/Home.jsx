@@ -1,6 +1,7 @@
 import React from 'react'
 import HomeHeader from '../Components/Home/HomeHeader'
 import Jobs from '../Components/Home/Jobs'
+import JobExpanded from '../Components/Home/JobExpanded'
 
 function Home() {
   return (
@@ -11,7 +12,7 @@ function Home() {
           <Jobs />
           </div>
           <div className="homecomponentbox__right">
-          
+          <JobExpanded />
           </div>
         </div>
     </main>

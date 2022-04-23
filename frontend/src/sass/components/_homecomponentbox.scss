@@ -4,8 +4,16 @@
     height: 60vh;
     width: 100%;
     padding: 2rem 2rem;
+    display: flex;
+    justify-content: space-evenly;
     &__left{
         width:30%;
+        background-color: #242526;
+        padding: 1rem;
+        border-radius: 2rem;
+    }
+    &__right{
+        width:60%;
         background-color: #242526;
         padding: 1rem;
         border-radius: 2rem;
