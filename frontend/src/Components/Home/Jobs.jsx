@@ -5,7 +5,7 @@ import jobs from '../../jobs'
 function Jobs() {
   return (
     <div>
-        <span className="page__title">Jobs</span>
+        <p className="page__title margin-bottom-medium">Jobs</p>
 
         <div className="jobs">
             {jobs.map(job=> (

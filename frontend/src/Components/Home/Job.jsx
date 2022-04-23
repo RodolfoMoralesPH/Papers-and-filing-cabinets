@@ -3,10 +3,10 @@ import React from 'react'
 
 function Job({job}) {
   return (
-    <div className="job">
+    <div className="job margin-bottom-medium">
         <img src={job.img} className="jobBox" alt="" />
         
-          <span className="jobBox__title">{job.name}</span>
+          <p className="jobBox__title">{job.name}</p>
     </div>
   )
 }

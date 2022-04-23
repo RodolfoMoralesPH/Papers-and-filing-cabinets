@@ -284,22 +284,28 @@ td:not(:first-child) {
   width: 100%;
   padding: 2rem 2rem; }
   .homecomponentbox__left {
-    width: 40%;
+    width: 30%;
     background-color: #242526;
     padding: 1rem;
     border-radius: 2rem; }
 
 .job {
-  width: 100%; }
+  width: 100%;
+  position: relative; }
   .jobBox {
     width: 100%;
     height: 15rem;
     background-size: cover;
     border-radius: 2rem;
-    position: relative; }
+    position: relative;
+    opacity: .6;
+    cursor: pointer; }
     .jobBox__title {
       position: absolute;
-      right: 0; }
+      z-index: 200;
+      right: 1rem;
+      margin-top: -4rem;
+      font-weight: 800; }
 
 .row {
   max-width: 114rem;
