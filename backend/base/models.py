@@ -34,7 +34,7 @@ class Client(models.Model):
 class Visit(models.Model):
     client = models.ForeignKey(Client, on_delete=models.SET_NULL, null=True)
     name = models.CharField(max_length=200, null=True, blank=True)
-    date = models.DateTimeField(auto_now_add=True, null=True, blank=True)
+    date = models.DateTimeField(auto_now_add=True)
     cost = models.DecimalField(max_digits=7, decimal_places=2, null=True, blank=True)
     isPaid = models.BooleanField(default=False)
     paidAt = models.DateTimeField(auto_now_add=False, null=True, blank=True)
@@ -47,7 +47,7 @@ class Ceo(models.Model):
     user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
     name = models.CharField(max_length=200, null=True, blank=True)
     profileImage = models.ImageField(null=True, blank=True)
-    clients = models.ForeignKey(Client, on_delete=models.SET_NULL, null=True, blank=True)
+    clients = models.ManyToManyField(Client, null=True, blank=True)
     _id = models.AutoField(primary_key=True, editable=False, blank=True)
 
     def __str__(self):
