@@ -4,9 +4,10 @@ import React from 'react'
 function Job({job}) {
   return (
     <div className="job margin-bottom-medium">
-        <img src={job.img} className="jobBox" alt="" />
+        <img src={job.jobImage} className="jobBox" alt="" />
         
           <p className="jobBox__title">{job.name}</p>
+          
     </div>
   )
 }

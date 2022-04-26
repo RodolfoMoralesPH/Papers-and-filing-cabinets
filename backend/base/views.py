@@ -51,3 +51,10 @@ def getClient(request, pk):
     client = Client.objects.get(_id=pk)
     serializer = ClientSerializer(client, many=False)
     return Response(serializer.data)
+
+@api_view(['GET'])
+def getVisits(request, pk):
+    client = Client.objects.get(_id=pk)
+    visits = Visit.objects.filter(client = pk)
+    serializer = VisitSerializer(visits, many=True)
+    return Response(serializer.data)

@@ -6,5 +6,6 @@ urlpatterns = [
     path('clients/', views.getClients, name='clients'),
     path('clients/<str:pk>/', views.getClient, name='client'),
     path('jobs/', views.getJobs, name='jobs'),
-    path('jobs/<str:pk>/', views.getJob, name='job')
+    path('jobs/<str:pk>/', views.getJob, name='job'), 
+    path('clients/<str:pk>/visits', views.getVisits, name='visits')
 ]
